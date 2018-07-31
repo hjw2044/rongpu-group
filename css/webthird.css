@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: "微软雅黑";
+}
+/*公共样式开始*/
+.left{float: left;}
+.right{float: right;}
+.safe{
+    width: 1000px;
+    height:100%;
+    /*background: pink;*/
+    margin: 0 auto;
+}
+/*清除浮动*/
+.safe::after{content:"";display: block;clear: both;}
+/*公共样式结束*/
+
+
+/*导航栏开始*/
+nav{height: 98px;background: white;}
+.logo{padding-top: 15px;}
+nav a{width: 67px;text-decoration: none;text-align: center;font-size: 16px;color: #333333;display: inline-block;height: 98px;line-height: 98px;margin-left: 38px;}
+nav a:hover{background: white;color: #00a1f1;border-bottom: 3px solid #00a1f1;display: inline-block;/*width: 67px;*/}
+.tbtex1{color: #00a1f1;border-bottom: 3px solid #00a1f1;/*width: 67px;text-align: center;*/}
+/*导航栏结束*/
+
+/*banner开始*/
+.banner{
+    background-image: url("../img/banner0.jpg");
+    height: 500px;
+    width: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.son{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+}
+.banext{
+    text-align: center;
+    font-size: 0;
+    padding-top: 148px;
+    color: white;
+}
+.banner-tex1{font-size: 48px;font-weight: normal;letter-spacing:5px;}
+.banner-tex2{font-size: 14px;margin-top: 10px;font-weight: normal;letter-spacing:4px;}
+/*banner结束*/
+
+/*图标层样式开始*/
+.floor-1{height: 348px;}
+.floor-1tex1{font-weight: normal;font-size: 16px;}
+.floor-1tex2{width: 168px;font-size: 12px;}
+.floor-1k{text-align: center;line-height: 2;padding-top: 60px;}
+.floor-1tex3{width: 131px;font-size: 12px;letter-spacing: -1px;}
+.floor-2k{text-align: center;line-height: 2;margin: 60px 56px 0 49px;}
+.floor-3k{text-align: center;line-height: 2;margin: 60px 32px 0 42px;}
+/*图标层样式结束*/
+
+
+/*公司简介样式开始*/
+.floor-2{height: 280px;}
+.floor-2k1{border: 1px solid #e5e5e5;padding-top: 0;width: 700px;height: 280px;vertical-align: middle;position: relative;/*overflow: hidden;*//* 剪切蒙版*/}
+.floor-2k3{margin-right: 48px;}
+.floor-2tp1{width: 315px;height: 280px;}
+.ex{
+    background-color:rgba(0,0,0,0.4);
+}
+.color{
+    color: lightgreen;
+}
+.floor-2k1::after{content:"";display: block;clear: both;}
+.floor-2tex1{font-size: 24px;font-weight: 100;margin-top: 44px;}
+.floor-2tex2{font-size: 12px;display: inline-block;width: 288px;color: #999999;margin: 34px 0;}
+.floor-2tex3{display: block;width: 120px;height: 35px;border: 1px solid #d9d9d9;border-radius: 3px;text-align: center;line-height: 35px;text-decoration: none;color: #808080;}
+.floor-2k2{width: 280px;height: 280px;border: 1px solid #e6e6e6;}
+.floor-2k2-1{height: 56px;/*width: 280px;*/border-bottom: 1px solid  #e6e6e6;background: #f7f7f7;line-height: 56px;font-size: 0;}
+.ttl{font-size: 18px;color: black;margin-left: 20px;font-weight: 500;}
+.more{font-size: 12px;margin-right: 18px;color: #808080;text-decoration: none;/*display: block;*//*height: 56px;line-height: 56px;*/}
+.lianjie>a{display: inline-block;font-size: 12px;text-decoration: none;color: #808080;margin-left:14px;margin-top: 20px;}
+.floor-2k2 a:hover{color: #00a1f1;}
+.floor-2k2 .floor-1tex4{color: #00a1f1;margin-top: 30px;}
+/*公司简介样式结束*/
+
+
+/*中间banner样式开始*/
+.qcfd{overflow: hidden;}
+.floor-3img{background-image: url("../img/9.jpg");height: 500px;background-repeat: no-repeat;background-position: center;margin-top: 30px;margin-bottom: 60px;background-size: cover;background-attachment: fixed;}
+.translucent{height: 500px;background:rgba(0,0,0,.9);}
+.translucent>.safe{text-align: center;padding-top: 93px;}
+.floor-3tex1{font-size: 36px;color: white;margin-bottom: 74px;font-weight: normal;}
+.floor-3tex2{font-size: 18px;color: #ebb0b0;display: block;width: 154px;letter-spacing: -1px;margin: 31px 0 0 0;}
+.floor-3tex1 div{text-align: center;}
+.floor-3tex3{font-size: 18px;color: #ebb0b0;display: block;width: 180px;letter-spacing: -1px;margin: 31px 0 0 0;}
+.floor-3tex4{font-size: 18px;color: #ebb0b0;display: block;width: 120px;letter-spacing: -1px;margin: 31px 0 0 0;}
+.floor-3tex5{font-size: 18px;color: #ebb0b0;display: block;width: 120px;letter-spacing: -1px;margin: 31px 0 0 0;}
+.floor-3tp1{vertical-align: bottom;}
+.floor-3tp2{vertical-align: bottom;}
+.floor-3k1{margin-left: 8px;}
+.floor-3k2{margin: 0 130px 0 109px;}
+.floor-3k3{margin-left: 159px;}
+/*中间banner样式结束*/
+
+
+/*产品展示层样式开始*/
+.floor-4k{height: 288px;border: 1px solid #e6e6e6;}
+.floor-4k1{height: 55px;border-bottom: 1px solid #e6e6e6;line-height: 55px;overflow: hidden;}
+.floor-4tex1{font-size: 18px;color: black;font-weight: 500;margin-left: 20px;}
+.floor-4tex2{margin-right: 20px;color: #9a9a9a;font-size: 14px;text-decoration: none;}
+
+/*修改前*/
+/*ul>li{list-style: none;font-size: 0;margin-bottom: 30px;}*/
+/*.linktex1{font-size: 14px;text-decoration: none;display:block;color: black;font-weight: bold;}*/
+/*.linktex1-1{font-size: 12px;display:block;width: 172px;color: #999999;text-align: left;line-height: 20px;margin-top: 15px;vertical-align: bottom;}*/
+/*.floor-4k2{text-align: center;font-size: 0;padding: 31px 0 30px 21px;overflow: hidden;}*/
+/*.floor-4k3{margin-left: 16px;}*/
+/*.floor-4tp1{margin-left: 31px;}*/
+
+/*修改后*/
+.linka{width: 298px;height: 73px;margin-bottom: 30px;margin-right: 30px;}
+.tex1{font-size: 14px;color: black;margin-bottom: 18px;}
+.tex2{font-size: 12px;width: 172px;color: #999999;line-height: 18px;}
+.k1{overflow: hidden;padding: 31px 0 0 21px;}
+.linkb{margin-bottom: 30px;}
+.linkc{margin-bottom: 30px;}
+.k1>a{width: 298px;height: 73px;}
+/*产品展示层样式结束*/
+
+
+/*案例展示开始*/
+.floor-5{height: 324px;padding-top: 60px;}
+.floor-5tex1{font-size: 16px;color: #4c4c4c;margin-left: 22px;margin-bottom: 51px;}
+.floor-5>a{display: inline-block;}
+.linktp1{background-image: url("../img/17.jpg");margin: 0 68px 0 27px;width: 185px;height: 60px;}
+.linktp2{background-image: url("../img/18.jpg");width: 182px;height: 63px;}
+.linktp3{background-image: url("../img/19.jpg");margin: 0 64px 37px 69px;width: 178px;height: 57px;}
+.linktp4{background-image: url("../img/20.jpg");margin-right: 10px;width: 188px;height: 58px;}
+.linktp5{background-image: url("../img/21.jpg");margin: 0 86px 0 29px;width: 166px;height: 54px;}
+.linktp6{background-image: url("../img/22.jpg");width: 183px;height: 57px;}
+.linktp7{background-image: url("../img/23.jpg");margin: 0 88px 0 63px;width: 192px;height: 60px;}
+.linktp8{background-image: url("../img/24.jpg");width: 148px;height: 55px;}
+/*案例展示结束*/
+
+
+/*友情链接层样式开始*/
+.floor-6{height: 255px;background-color: #f2f2f2;border-top: 1px solid #e6e6e6;}
+/*.lklast1{text-decoration: none;}*/
+.floor-6 a{text-decoration: none;color: #808080;font-size: 12px;display: block;margin-bottom: 16px;}
+.xiamiaobiao{border-bottom: 1px solid #e6e6e6;}
+.floor-6tex1{font-size: 16px;color: #4c4c4c;margin: 40px 0 28px 0;}
+.floor-6k1{margin: 0 135px 0 138px;}
+.floor-6k2{margin: 0 0 0 136px;}
+.floor-6tex2{font-size: 16px;color: #4c4c4c;margin: 40px 0 15px 0;}
+.floor-6tex3{font-size: 26px;color: #a72323;}
+.floor-6tex4{font-size: 12px;color: #7e7e7e; margin: 10px 0 12px 0;}
+.floor-6tex5{font-size: 12px;color: #7e7e7e;display: block;width: 217px;line-height: 26px;}
+/*友情链接层样式结束*/
+
+
+/*footer开始*/
+footer{text-align: center;height: 71px;width:100%;background-color: #f2f2f2;}
+.lasttex{font-size: 12px;color: #808080;height:71px;line-height: 71px;display:block;}
+/*footer层样式结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
